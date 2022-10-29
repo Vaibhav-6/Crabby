@@ -22,7 +22,7 @@ app.get('/post', urlencodedParser, function (req, res) {
     }));
     var mailOptions = {
       from: 'crabhousebot@gmail.com',
-      to: 'vs803688@gmail.com',
+      to: 'contact@crabhousemumbai.com',
       subject: `Reservation Order⌛ !IMPORTANT Order No: ${order}`,
       text: `Reservation Details:
             1)Name: ${req.query.name}
